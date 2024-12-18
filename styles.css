@@ -1,0 +1,226 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.landing-page{
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1920px 1080px;
+    background-position: center;
+    margin: 0;
+}
+
+.text-center{
+    background-color: rgba(0,0,0,0.5);
+    background-size: 1920px 1080px;
+    padding: 220px 0 200px;
+}
+
+.landing-h1{
+    color: white;
+    font-size: 30px ;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.landing-p{
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content {
+    max-width: 50%;
+}
+
+h4 {
+    color: #00bcd4;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.contact-link {
+    color: #00bcd4;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.images {
+    position: relative;
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ffffff;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+/* Reset Default Browser Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #fff;
+}
+
+/* Offer Container Styles */
+.offer-container {
+    background: url('images/IMG.webp') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer-content {
+    display: flex;
+    max-width: 1000px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Discount Section */
+.discount-text h1 {
+    font-size: 120px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+}
+
+.discount-text h1 span {
+    font-size: 60px;
+}
+
+/* Offer Details Section */
+.offer-details {
+    margin-left: 40px;
+}
+
+.offer-details h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.offer-details h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.offer-details p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+/* Read More Button */
+.read-more-btn {
+    background-color: #00d1b2;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.read-more-btn:hover {
+    background-color: #00a58d;
+}
+
